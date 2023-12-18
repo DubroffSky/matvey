@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Oceanic Bold';
+    src: url(TRIAL_Oceanic-Bold.otf);
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color: #333333;
+}
+
+header {
+    height: 10vh;
+}
+
+header h1 {
+    font-family: 'Oceanic Bold';
+    color: #333333;
+    text-shadow: -0.75px -0.75px 0 #fff, 0.75px -0.75px 0 #fff, -0.75px 0.75px 0 #fff, 0.75px 0.75px 0 #fff;
+    margin-top: 1.5em;
+}
+
+.name {
+    margin-bottom: 2em;
+}
+
+.matv {
+    margin-left: 2em;
+}
+
+.gorb {
+    margin-top: -1.25em;
+    margin-left: 3.8em;
+}
+
+header .underline {
+    position: absolute;
+    margin-top: -7em;
+    width: 90vw;
+    margin-left: 2.5em;
+    z-index: -1;
+}
+
+.nav {
+    display: flex;
+    margin-top: -4em;
+    margin-left: 30em;
+}
+  
+.nav a {
+    margin-right: 1.25em;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.nav b {
+    color: #33cccc;
+}
+
+.languages {
+    margin-left: 62em;
+    margin-top: -1.5em;
+}
+
+.languages img {
+    height: 4vh;
+    width: auto;
+}
+
+.slash {
+    position: absolute;
+    height: 6vh;
+    width: auto;
+    margin-left: 66em;
+    margin-top: -5.5vh;
+}
+
+.networks {
+    margin-left: 67em;
+    margin-top: -4.5vh;
+}
+
+.networks img {
+    height: 4vh;
+    width: auto;
+}
+
+.container {
+    align-items: center;
+}
+
+.container img {
+    position: fixed;
+    height: 95vh;
+    width: auto;
+    margin-left: 16vw;
+}
